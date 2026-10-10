@@ -1,41 +1,33 @@
-ESP32-C3 FreeRTOS Temperature Monitor
+# ESP32-C3 FreeRTOS Temperature Monitor
 
-A simple temperature-monitoring project using an ESP32-C3, an NTC thermistor, and FreeRTOS.
+A small embedded project using **ESP32-C3, FreeRTOS, and an NTC thermistor** to monitor temperature and trigger an LED warning.
 
--Features
+## Features
+- Temperature sensing using ADC
+- Temperature calculation using the Beta equation
+- FreeRTOS tasks for sensor reading and safety monitoring
+- Queue-based communication between tasks
+- LED warning when temperature reaches **50°C**
+- ESP-IDF logging for system and sensor messages
 
-Reads the thermistor using the ADC.
 
-Calculates temperature using the Beta equation.
+## Circuit
 
-Uses a FreeRTOS queue to transfer sensor readings between tasks.
+![ESP32-C3 Temperature Monitor Circuit 1](Circuit_temp_1.png)
 
-Blinks an LED when the temperature reaches the configured threshold.
+![ESP32-C3 Temperature Monitor Circuit 2](Circuit_temp_2.png)
 
-Uses ESP-IDF logging for sensor and system messages.
+![ESP32-C3 Temperature Monitor Circuit 3](Circuit_temp_3.png)
 
--Hardware
+## Hardware
+- ESP32-C3
+- 10K NTC thermistor
+- 10K resistor
+- LED with current-limiting resistor
+- Breadboard and jumper wires
 
-ESP32-C3
+## Tech Stack
+`C` · `ESP-IDF` · `FreeRTOS` · `ADC` · `GPIO`
 
-10K NTC thermistor
-
-10K fixed resistor
-
-LED and current-limiting resistor
-
-Breadboard and jumper wires
-
--Software
-
-C
-
-ESP-IDF
-
-FreeRTOS
-
-ADC and ADC calibration APIs
-
--What I Learned
-
-Practiced FreeRTOS tasks, queues, ADC readings, temperature calculation, GPIO control, and ESP-IDF logging.
+## Key Learning
+Implemented a producer-consumer design using a FreeRTOS queue, along with ADC-based sensing, temperature calculation, GPIO control, and ESP-IDF logging.
