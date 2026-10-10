@@ -2,7 +2,7 @@ ESP32-C3 FreeRTOS Temperature Monitor
 
 A simple temperature-monitoring project using an ESP32-C3, an NTC thermistor, and FreeRTOS.
 
-Features
+-Features
 
 Reads the thermistor using the ADC.
 
@@ -14,7 +14,7 @@ Blinks an LED when the temperature reaches the configured threshold.
 
 Uses ESP-IDF logging for sensor and system messages.
 
-Hardware
+-Hardware
 
 ESP32-C3
 
@@ -26,7 +26,7 @@ LED and current-limiting resistor
 
 Breadboard and jumper wires
 
-Software
+-Software
 
 C
 
@@ -36,6 +36,6 @@ FreeRTOS
 
 ADC and ADC calibration APIs
 
-What I Learned
+-What I Learned
 
 Practiced FreeRTOS tasks, queues, ADC readings, temperature calculation, GPIO control, and ESP-IDF logging.
