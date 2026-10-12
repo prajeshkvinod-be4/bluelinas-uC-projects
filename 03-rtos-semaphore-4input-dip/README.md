@@ -1,6 +1,6 @@
 # ESP32-C3 FreeRTOS Binary Semaphore — DIP Switch LED Control
 
-A small embedded project using **ESP32-C3, FreeRTOS, and 4 position DIP switch** to trigger LED blinking through binary semaphore synchronization.
+An embedded project using **ESP32-C3, FreeRTOS, and 4 position DIP switch** to trigger LED blinking through binary semaphore synchronization.
 
 ## Features
 
