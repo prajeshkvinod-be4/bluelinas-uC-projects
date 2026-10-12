@@ -1,4 +1,4 @@
-# ESP32-C3 FreeRTOS Temperature Monitor
+# ESP32-C3 FreeRTOS Queue - Temperature Monitor
 
 A small embedded project using **ESP32-C3, FreeRTOS, and an NTC thermistor** to monitor temperature and trigger an LED warning.
 
