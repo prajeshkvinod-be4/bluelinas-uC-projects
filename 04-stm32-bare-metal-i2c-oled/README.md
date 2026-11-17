@@ -25,7 +25,7 @@ A bare-metal embedded project using **STM32F103C8T6 (Blue Pill), I2C1, and an SS
 
 ## Tech Stack
 
-`C` · `STM32F1` · `Bare-Metal Programming` · `I2C` · `GPIO Registers` · `SSD1306` · `Keil µVision`
+`Embedded C` · `STM32F103C8TA6` · `Bare-Metal Programming` · `I2C` · `GPIO Registers` · `SSD1306 OLED 0.96` · `Keil µVision 6`
 
 ## Key Learning
 
